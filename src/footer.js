@@ -10,13 +10,13 @@ export default function Footer() {
         </a>
       </span>{" "}
       and is<span className="github"></span>
-      <a href="https://github.com/Jofoxter/vanilla-weather-app">
+      <a href="https://github.com/Jofoxter/weather-app-react">
         {" "}
         open-sourced on GitHub
       </a>
       <span> and</span>
       <span className="netlify">
-        <a href="https://fancy-bonbon-0dc91a.netlify.app/">
+        <a href="https://enchanting-gaufre-176960.netlify.app/">
           {" "}
           hosted on Netlifly.
         </a>
