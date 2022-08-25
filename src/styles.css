@@ -45,4 +45,5 @@ li {
 .spaceship {
   margin: auto;
   display: block;
+  border-radius: 15px;
 }
