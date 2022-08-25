@@ -15,7 +15,8 @@ export default function Footer() {
           <a
             href="https://github.com/Jofoxter/weather-app-react"
             target="_blank"
-            rel="noopener">
+            rel="noreferrer"
+          >
             {" "}
             open-sourced on GitHub
           </a>
@@ -24,7 +25,7 @@ export default function Footer() {
             <a
               href="https://enchanting-gaufre-176960.netlify.app/"
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
             >
               {" "}
               hosted on Netlifly.
