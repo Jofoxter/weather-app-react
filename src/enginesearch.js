@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 
+
 export default function EngineSearch() {
   let [city, setCity] = useState("");
   let [data, setData] = useState(false);
@@ -44,7 +45,7 @@ export default function EngineSearch() {
           <li>Description: {weather.description}</li>
           <li>Humidity: {weather.humidity}%</li>
           <li>Wind: {weather.wind}km/h</li>
-          <img src={weather.icon} alt={weather.description} />
+          <li > <img src={weather.icon} alt={weather.description} /></li>
         </ul>
       </div>
     );
